@@ -1,0 +1,12 @@
+{
+  "events_processed": 5400,
+  "polls": 900,
+  "workers": 3,
+  "processing_mode": "room-partitioned multiprocessing",
+  "elapsed_seconds": 48.702,
+  "throughput_events_per_second": 110.88,
+  "mean_batch_latency_ms": 53.946,
+  "p95_batch_latency_ms": 71.45,
+  "max_batch_latency_ms": 162.143,
+  "poll_interval_seconds": 10
+}

@@ -1,0 +1,13 @@
+{
+  "known_fault_events": 10,
+  "rule_flagged_events": 10,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix_tn_fp_fn_tp": [
+    5390,
+    0,
+    0,
+    10
+  ]
+}

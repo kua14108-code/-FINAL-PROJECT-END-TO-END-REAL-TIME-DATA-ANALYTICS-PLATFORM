@@ -1,0 +1,14 @@
+flowchart LR
+ A[IoT Event Generator] --> B[Micro-batch Ingestion]
+ B --> C[Validation and Cleaning]
+ C --> D{Partition by room_id}
+ D --> W1[Worker 1: Lecture-101]
+ D --> W2[Worker 2: Lecture-202]
+ D --> W3[Worker 3: Lab-303]
+ W1 --> E[Rolling Analytics and Rules]
+ W2 --> E
+ W3 --> E
+ E --> F[Random Forest ML]
+ E --> G[SQLite Storage]
+ F --> H[Streamlit Dashboard]
+ G --> H

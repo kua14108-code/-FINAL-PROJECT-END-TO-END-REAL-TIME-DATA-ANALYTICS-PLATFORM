@@ -1,0 +1,25 @@
+{
+  "task": "next-reading risk classification (1=at-risk, 0=comfortable)",
+  "rows": 5400,
+  "train_rows": 4050,
+  "test_rows": 1350,
+  "accuracy": 0.9896296296296296,
+  "precision": 0.9968102073365231,
+  "recall": 0.9920634920634921,
+  "f1": 0.994431185361973,
+  "roc_auc": 0.995489417989418,
+  "confusion_matrix": [
+    [
+      86,
+      4
+    ],
+    [
+      10,
+      1250
+    ]
+  ],
+  "class_distribution": {
+    "1": 5042,
+    "0": 358
+  }
+}
